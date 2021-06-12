@@ -1,0 +1,33 @@
+.sidebar {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(156, 161, 151);
+    text-align: center;
+}
+
+.button-fix {
+    background-color: rgb(202, 60, 60) !important;
+    border-color: rgb(202, 60, 60) !important;
+    margin-top: 1rem;
+    width: 80%;
+    border-radius: 50px !important;
+}
+
+.link-to {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    display: block;
+}
+
+.link-to:hover {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+

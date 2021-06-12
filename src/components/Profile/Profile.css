@@ -1,0 +1,53 @@
+.profile {
+    border-style: dashed;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 2;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.field {
+    width: 100%;
+}
+
+.row#field {
+    margin-top: 5px !important;
+}
+
+.form_profile {
+    padding: 5px;
+    background-color: rgb(156, 161, 151);
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.submit-button {
+    width: 30%;
+    margin: 1rem;
+}
+
+.reset-button {
+    width: 37%;
+    margin: 1rem;
+    background-color: rgb(240, 105, 132) !important;
+    border-color: rgb(240, 105, 132) !important;
+}
+
+.result {
+    padding: 5px;
+    background-color: rgb(156, 161, 151);
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.modal-content-1 {
+    padding: 1rem;
+    background-color: rgb(192, 193, 196);
+}

@@ -1,0 +1,20 @@
+.search_result{
+    border-style: dashed;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 2;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    border-radius: 20px;
+    padding: 1rem;
+    width: 100%;
+}
+
+.title_result{
+    text-align: center;
+    width: 100%;
+}
+
+.form_search{
+    width: 100%;
+}
