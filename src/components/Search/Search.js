@@ -57,7 +57,6 @@ function Search() {
             _page: 1,
             name_like: newFilters.searchTerm.name,
             idno_like: newFilters.searchTerm.idno,
-            planeid_liek: newFilters.searchTerm.planid,
         })
     }
 

@@ -15,7 +15,7 @@ GetFilterForm.defaultProps = {
 
 function GetFilterForm(props) {
     const { onSubmit } = props;
-    const [searchTerm, setSearchTerm] = useState({name: '', idno: '', planeid: ''});
+    const [searchTerm, setSearchTerm] = useState({name: '', idno: ''});
     const typingTimeoutRef = useRef(null);
 
     function handleSearchTermChange(e) {
@@ -46,12 +46,6 @@ function GetFilterForm(props) {
 
         
     }
-    function handleSearchTermPlaneidChange(e) {
-        const value = e.target.value;
-        setSearchTerm({...searchTerm,planeid: value});
-
-        
-    }
     return (
         <Form inline className='form_search' onChange = {handleSearchTermChange}>
             <Form.Group>
@@ -68,14 +62,6 @@ function GetFilterForm(props) {
                 </Form.Label>
                 <Col sm="2">
                     <Form.Control size="sm" type="text" value={searchTerm.idno} onChange={handleSearchTermIdnoChange} />
-                </Col>
-            </Form.Group>
-            <Form.Group>
-                <Form.Label column="sm" sm="1">
-                    <strong>Date</strong>
-                </Form.Label>
-                <Col sm="2">
-                    <Form.Control size="sm" type="text" value={searchTerm.planeid} onChange={handleSearchTermPlaneidChange} />
                 </Col>
             </Form.Group>
             <Button type="submit" >Search</Button>
